@@ -6,6 +6,6 @@ package org.greetings;
 public class Greeter {
     public static void main (String [] args) {
 
-        System.out.println("Hi, Greetings!!! It's me again!");
+        System.out.println("Hi, Greetings!!!");
     }
 }
