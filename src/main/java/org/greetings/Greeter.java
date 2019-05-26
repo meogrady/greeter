@@ -1,7 +1,7 @@
 package org.greetings;
 
 /**
- * This is a change to greeter.
+ * This is a change to greeter. Master repo
  */
 public class Greeter {
     public static void main (String [] args) {
