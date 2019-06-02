@@ -7,10 +7,16 @@ import java.util.Scanner;
  */
 public class Greeter {
     public static void main (String [] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter first name: ");
-        String firstName = scan.next();
+        String user = getUser();
 
-        System.out.println("Hi, Greetings " +  firstName + "!");
+        System.out.println("Hi, Greetings " +  user + "!");
+    }
+
+
+    public static String getUser () {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter first name: ");
+        String firstName = scan.next();
+        return firstName;
     }
 }
