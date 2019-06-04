@@ -8,8 +8,7 @@ import java.util.Scanner;
 public class Greeter {
     public static void main (String [] args) {
         String user = getUser();
-
-        System.out.println("Hi, Greetings " +  user + "!");
+        printGreeting(user);
     }
 
     /**
@@ -21,5 +20,14 @@ public class Greeter {
         System.out.print("Enter first name: ");
         String firstName = scan.next();
         return firstName;
+    }
+
+    /**
+     *
+     * @param user
+     * @return
+     */
+    public static void printGreeting (String user) {
+        System.out.println("Hi, Greetings " +  user + "!");
     }
 }
