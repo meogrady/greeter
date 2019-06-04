@@ -13,7 +13,7 @@ public class Greeter {
     }
 
     /**
-     *
+     * Prompts user for first name, returns result.
      * @return The first name user enters.
      */
     public static String getUser () {
