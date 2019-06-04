@@ -12,7 +12,10 @@ public class Greeter {
         System.out.println("Hi, Greetings " +  user + "!");
     }
 
-
+    /**
+     *
+     * @return The first name user enters.
+     */
     public static String getUser () {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter first name: ");
